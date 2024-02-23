@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+/* -------------------Ketik code dibawah-------------------------- */
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/* Awal CSS Header */
+header {
+  height: 65px;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  /*box-shadow: 2px 5px whitesmoke;*/
+  border-bottom: 5px solid whitesmoke;
+}
+
+.logo {
+  width: 90px;
+  margin-top: -15px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: 25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: red;
+  display: block;
+  float: left;
+  transition: all 1s;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none;
+}
+
+.header-right a:hover {
+  background-color: darkred;
+  transition: all 0.8;
+}
+/* Akhir CSS Header */
+/* <----------------Batas--------------------> */
+/* Awal CSS Sejarah */
+
+.top-wrapper {
+  height: 900px;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.8;
+  margin-bottom: 3px;
+}
+
+.jumbotron {
+  padding: 180px 0 100px 0;
+  color: #ffffff;
+  background-image: url("images/bg1.jpeg");
+  background-size: cover;
+  height: 650px;
+  text-align: center;
+}
+
+.btn-detail {
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+  padding: 15px 40px;
+  background-color: #f73939;
+  cursor: pointer;
+  box-shadow: 0 7px #e1e2e2;
+  color: white;
+  margin-top: 40px;
+}
+
+.btn-detail:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.content-img {
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+article p {
+  text-align: justify;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+}
+
+/* Akhir CSS Sejarah */
+/* <----------------Batas--------------------> */
+/* Awal CSS Pancasila */
+.sila-pancasila {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+/* Akhir CSS Pancasila */
+/* <----------------Batas--------------------> */
+/* AWal CSS Tentang Kami */
+
+.tentang-kami{
+    background-color: rgb(224, 223, 223); align-item: center;
+    text-align:center;height: 300px;position: relative;margin: 0;padding: 0;
+}
+.tentang-kami h3{
+    font-size:20px;padding-top: 10px; padding-bottom: 10px;color: rgb(175, 6, 6);margin:
+}
+.tentang-kami h4{
+    font-size:18px;padding-bottom: 5px;color: rgb(175, 6, 6);margin: 0;
+}
+.tentang-kami img{
+    height: 100px;padding-bottom: 10px;margin: 0;
+}
+.tentang-kami p{
+    font-size: 14px;color: rgb(175, 6, 6);margin: 0;padding: 0;
+}
+.btn-name{
+    float: center;
+    margin: 10px 0;margin-bottom: 10px;
+}
+.btn{
+    padding:10px 20px;margin-bottom: 5px;border-radius:5%;
+    display:inline-block;
+    opacity:0.7;
+}
+btn:hover{
+    opacity:1;
+}
+.name{
+    background-color: rgb(201, 198, 198);margin-left:10px;
+    color:rgb(175, 6, 6);text-decoration: none;
+}
+/* Akhir CSS Tentang Kami */
+/* <----------------Batas--------------------> */
+/* Awal CSS Footer */
+footer {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+footer p {
+  font-size: 15px;
+}
+
+footer span {
+  color: red;
+}
+/* Akhir CSS Footer */
+.video {
+  align-items: center;
+  margin-left: 40%;
+}
